@@ -1,16 +1,23 @@
 import { frontendSkills } from "../data";
 import { backendSkills, toolsAndWorkflow } from "../data";
+import Card from "./Card";
 export default function Skills() {
   const renderSkillSection = (title, skillsArray) => (
     <div className="mb-12">
       <h2 className="text-2xl text-white font-semibold mb-4">{title}</h2>
-      <div className="flex flex-wrap -mx-2">
+      <div className="flex flex-wrap ">
         {skillsArray.map((skill) => (
-          <div key={skill} className="p-2 sm:w-1/2 w-full">
-            <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-              <span className="title-font font-medium text-white">{skill}</span>
-            </div>
-          </div>
+          <Card
+            icon={skill?.icon}
+            name={skill?.name}
+            color={skill?.color}
+            key={skill?.name}
+          />
+          // <div key={skill} className="p-2 sm:w-1/2 w-full">
+          //   <div className="bg-gray-800 rounded flex p-4 h-full items-center">
+          //     <span className="title-font font-medium text-white">{skill}</span>
+          //   </div>
+          // </div>
         ))}
       </div>
     </div>
@@ -18,7 +25,7 @@ export default function Skills() {
 
   return (
     <section id="skills">
-      <div className="container px-5 py-10 mx-auto">
+      <div className="container px-5 py-10 mx-auto lg:ml-10">
         <div className="text-center mb-16">
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Skills &amp; Technologies

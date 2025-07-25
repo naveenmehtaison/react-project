@@ -46,31 +46,29 @@ export const projects = [
   },
 ];
 export const frontendSkills = [
-  "HTML5",
-  "CSS3",
-  "JavaScript (ES6+)",
-  "React.js",
-  "Redux Toolkit",
-  "Tailwind CSS",
-  "Bootstrap",
-  "Responsive Design",
+  { name: "HTML5", color: "#E34F26", icon: "html5" },
+  { name: "CSS3", color: "#1572B6", icon: "css" },
+  { name: "JavaScript (ES6+)", color: "#F7DF1E", icon: "javascript" },
+  { name: "React.js", color: "#61DAFB", icon: "react" },
+  { name: "Redux Toolkit", color: "#764ABC", icon: "redux" },
+  { name: "Tailwind CSS", color: "#38BDF8", icon: "tailwindcss" },
+  { name: "Bootstrap", color: "#7952B3", icon: "bootstrap" },
 ];
 
 export const backendSkills = [
-  "Node.js",
-  "Express.js",
-  "C#",
-  "ASP.NET Core",
-  "Web API",
-  "MongoDB",
-  "SQL Server",
-  "Firebase",
-  "JWT Authentication",
+  { name: "Node.js", color: "#339933", icon: "nodedotjs" },
+  { name: "Express.js", color: "#000000", icon: "express" },
+  { name: "C#", color: "#239120", icon: "c" },
+  { name: "ASP.NET Core", color: "#512BD4", icon: "dotnet" },
+  { name: "MongoDB", color: "#47A248", icon: "mongodb" },
+  { name: "SQL Server", color: "#CC2927", icon: "mysql" },
+  { name: "Firebase", color: "#FFCA28", icon: "firebase" },
+  { name: "JWT Authentication", color: "#000000", icon: "jsonwebtokens" },
 ];
 
 export const toolsAndWorkflow = [
-  "Git & GitHub",
-  "Postman",
-  "Visual Studio Code",
-  "Agile Development",
+  { name: "Git & GitHub", color: "#F05032", icon: "git" },
+  { name: "Postman", color: "#FF6C37", icon: "postman" },
+  { name: "Visual Studio Code", color: "#007ACC", icon: "visualstudiocode" },
+  { name: "Agile Development", color: "#29A19C", icon: "jira" }, // closest popular Agile tool
 ];
