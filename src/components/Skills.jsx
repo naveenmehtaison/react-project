@@ -1,11 +1,13 @@
 import { frontendSkills } from "../data";
 import { backendSkills, toolsAndWorkflow } from "../data";
+import { useInView } from "react-intersection-observer";
+import { useRef } from "react";
 import Card from "./Card";
 export default function Skills() {
   const renderSkillSection = (title, skillsArray) => (
-    <div className="mb-12">
+    <div className="mb-12 m-2">
       <h2 className="text-2xl text-white font-semibold mb-4">{title}</h2>
-      <div className="flex flex-wrap ">
+      <div className="flex flex-wrap m-2 p-1 lg:p-0  lg:m-0">
         {skillsArray.map((skill) => (
           <Card
             icon={skill?.icon}
@@ -25,7 +27,7 @@ export default function Skills() {
 
   return (
     <section id="skills">
-      <div className="container px-5 py-10 mx-auto lg:ml-10">
+      <div className="container px-5 py-10 mx-auto ">
         <div className="text-center mb-16">
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Skills &amp; Technologies

@@ -37,7 +37,7 @@ export default function Contact() {
             marginHeight={0}
             marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed/v1/place?q=noida"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28028.298103842535!2d77.3616182!3d28.5355164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce59c1a0640f3%3A0x6f33e4ecf31ff7f8!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1695791730176!5m2!1sen!2sin"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
