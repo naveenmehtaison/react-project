@@ -2,6 +2,7 @@ import bhooklagi from "./assets/bhooklagi.png";
 import netflix from "./assets/netflix.png";
 import PennyPilot from "./assets/PennyPilot.png";
 import mailmilan from "./assets/mail.png";
+
 export const projects = [
   {
     title: "Bhook Lagi",
@@ -71,4 +72,27 @@ export const toolsAndWorkflow = [
   { name: "Postman", color: "#FF6C37", icon: "postman" },
   { name: "Visual Studio Code", color: "#007ACC", icon: "visualstudiocode" },
   { name: "Agile Development", color: "#29A19C", icon: "jira" }, // closest popular Agile tool
+];
+
+export const socialLinks = [
+  {
+    name: "LinkedIn",
+    url: "https://in.linkedin.com/in/naveen-singh-mehta-060571322",
+    icon: "SiLinkedin",
+  },
+  {
+    name: "LeetCode",
+    url: "https://leetcode.com/u/Naveen_Mehta/",
+    icon: "SiLeetcode",
+  },
+  {
+    name: "Instagram",
+    url: "https://www.instagram.com/naveen_s_mehta/",
+    icon: "SiInstagram",
+  },
+  {
+    name: "Facebook",
+    url: "https://www.facebook.com/jonathan.good.35", // Fixed the typo in URL
+    icon: "SiFacebook",
+  },
 ];

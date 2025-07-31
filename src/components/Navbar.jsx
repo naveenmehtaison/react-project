@@ -1,6 +1,6 @@
 import React from "react";
 import { ArrowRightIcon } from "@heroicons/react/16/solid";
-
+import SocialLinks from "./SocialLinks";
 export default function Navbar() {
   return (
     <header className="bg-black md:sticky top-0 z-10">
@@ -21,6 +21,7 @@ export default function Navbar() {
             Testimonials
           </a>
         </nav>
+        <SocialLinks className="mt-4 md:mt-0" />
         <a
           href="#contact"
           className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
