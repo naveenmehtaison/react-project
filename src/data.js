@@ -17,7 +17,7 @@ export const projects = [
     description:
       "A movie discovery app that allows users to search for movies, view details, and watch trailers",
     image: netflix,
-    link: "https://github.com/naveenmehtaison/netflix-gpt",
+    link: "https://moviemaniabynvn.netlify.app/",
   },
   //   {
   //     title: "DevTinder",
