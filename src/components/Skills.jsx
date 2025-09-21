@@ -14,6 +14,7 @@ export default function Skills() {
             name={skill?.name}
             color={skill?.color}
             key={skill?.name}
+            onClick={() => window.open(skill?.link, "_blank")}
           />
           // <div key={skill} className="p-2 sm:w-1/2 w-full">
           //   <div className="bg-gray-800 rounded flex p-4 h-full items-center">
