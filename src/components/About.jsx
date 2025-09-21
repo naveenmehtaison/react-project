@@ -12,11 +12,11 @@ export default function About() {
       "Designer",
       "FullStackDeveloper",
     ],
-    700
+    900
   );
-  const name = Typewriter("Naveen", 500);
+  const name = Typewriter("Naveen", 300);
 
-  const Build = Typewriter(["Website", "WebApp", "MobileApp"], 700);
+  const Build = Typewriter(["Website", "WebApp", "MobileApp"], 1100);
   return (
     <section id="about">
       <motion.div
